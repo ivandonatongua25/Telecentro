@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,19 @@
   "bugs": {
     "url": "https://github.com/ivandonatongua25/Telecentro/issues"
   },
-  "homepage": "https://github.com/ivandonatongua25/Telecentro#readme"
+  "homepage": "https://github.com/ivandonatongua25/Telecentro#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "debug": "^4.3.4",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "mariadb": "^3.2.0",
+    "method-override": "^3.0.0",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.6.0",
+    "nodemon": "^3.0.1",
+    "path": "^0.12.7",
+    "sequelize": "^6.32.1"
+  }
 }
